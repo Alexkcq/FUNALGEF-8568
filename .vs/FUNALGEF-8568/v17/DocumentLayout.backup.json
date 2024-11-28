@@ -1,9 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\jb\\upn\\2024-2\\ISC UG 1 COMP1201A FUNDAMENTOS DE ALGORITMOS 8568 - Jorge Bojorquez\\03 EVALUACIONES\\05 Eval Final\\FUNALGEF-8568\\",
+  "WorkspaceRootPath": "C:\\Users\\UPN\\Documents\\INISCO-8568\\FUNALGEF-8568\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F194626B-B7BF-4504-A42F-AFCE3D8F5CCE}|AlquilerCarros\\AlquilerCarros.csproj|d:\\jb\\upn\\2024-2\\isc ug 1 comp1201a fundamentos de algoritmos 8568 - jorge bojorquez\\03 evaluaciones\\05 eval final\\funalgef-8568\\alquilercarros\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F194626B-B7BF-4504-A42F-AFCE3D8F5CCE}|AlquilerCarros\\AlquilerCarros.csproj|c:\\users\\upn\\documents\\inisco-8568\\funalgef-8568\\alquilercarros\\alquilerutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F194626B-B7BF-4504-A42F-AFCE3D8F5CCE}|AlquilerCarros\\AlquilerCarros.csproj|solutionrelative:alquilercarros\\alquilerutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F194626B-B7BF-4504-A42F-AFCE3D8F5CCE}|AlquilerCarros\\AlquilerCarros.csproj|c:\\users\\upn\\documents\\inisco-8568\\funalgef-8568\\alquilercarros\\alquiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F194626B-B7BF-4504-A42F-AFCE3D8F5CCE}|AlquilerCarros\\AlquilerCarros.csproj|solutionrelative:alquilercarros\\alquiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F194626B-B7BF-4504-A42F-AFCE3D8F5CCE}|AlquilerCarros\\AlquilerCarros.csproj|c:\\users\\upn\\documents\\inisco-8568\\funalgef-8568\\alquilercarros\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F194626B-B7BF-4504-A42F-AFCE3D8F5CCE}|AlquilerCarros\\AlquilerCarros.csproj|solutionrelative:alquilercarros\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -19,10 +27,36 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AlquilerUtil.cs",
+              "DocumentMoniker": "C:\\Users\\UPN\\Documents\\INISCO-8568\\FUNALGEF-8568\\AlquilerCarros\\AlquilerUtil.cs",
+              "RelativeDocumentMoniker": "AlquilerCarros\\AlquilerUtil.cs",
+              "ToolTip": "C:\\Users\\UPN\\Documents\\INISCO-8568\\FUNALGEF-8568\\AlquilerCarros\\AlquilerUtil.cs",
+              "RelativeToolTip": "AlquilerCarros\\AlquilerUtil.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T13:43:57.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Alquiler.cs",
+              "DocumentMoniker": "C:\\Users\\UPN\\Documents\\INISCO-8568\\FUNALGEF-8568\\AlquilerCarros\\Alquiler.cs",
+              "RelativeDocumentMoniker": "AlquilerCarros\\Alquiler.cs",
+              "ToolTip": "C:\\Users\\UPN\\Documents\\INISCO-8568\\FUNALGEF-8568\\AlquilerCarros\\Alquiler.cs",
+              "RelativeToolTip": "AlquilerCarros\\Alquiler.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAIwDIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T13:43:32.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\jb\\upn\\2024-2\\ISC UG 1 COMP1201A FUNDAMENTOS DE ALGORITMOS 8568 - Jorge Bojorquez\\03 EVALUACIONES\\05 Eval Final\\FUNALGEF-8568\\AlquilerCarros\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\UPN\\Documents\\INISCO-8568\\FUNALGEF-8568\\AlquilerCarros\\Program.cs",
               "RelativeDocumentMoniker": "AlquilerCarros\\Program.cs",
-              "ToolTip": "D:\\jb\\upn\\2024-2\\ISC UG 1 COMP1201A FUNDAMENTOS DE ALGORITMOS 8568 - Jorge Bojorquez\\03 EVALUACIONES\\05 Eval Final\\FUNALGEF-8568\\AlquilerCarros\\Program.cs",
+              "ToolTip": "C:\\Users\\UPN\\Documents\\INISCO-8568\\FUNALGEF-8568\\AlquilerCarros\\Program.cs",
               "RelativeToolTip": "AlquilerCarros\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

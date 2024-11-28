@@ -10,9 +10,6 @@ namespace AlquilerCarros
     public class Alquiler
 
     {
-
-        // Propiedades
-
         public int Numero { get; set; }
 
         public Carro CarroAlquilado { get; set; }
@@ -20,10 +17,6 @@ namespace AlquilerCarros
         public Cliente Contratante { get; set; }
 
         public double Precio { get; set; }
-
-
-
-        // Constructor opcional
 
         public Alquiler(int numero, Carro carroAlquilado, Cliente contratante, double precio)
 
