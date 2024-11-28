@@ -92,3 +92,39 @@ namespace AlquilerCarros
             }
 
         }
+        public static void Eliminar()
+
+        {
+
+            Console.Write("Ingrese la placa del carro a eliminar: ");
+
+            string placa = Console.ReadLine();
+
+
+
+            Carro carroAEliminar = Carros.Find(c => c.Placa.Equals(placa, StringComparison.OrdinalIgnoreCase));
+
+
+
+            if (carroAEliminar != null)
+
+            {
+
+                Carros.Remove(carroAEliminar);
+
+                Console.WriteLine("¡Carro eliminado exitosamente!");
+
+            }
+
+            else
+
+            {
+
+                Console.WriteLine("No se encontró un carro con la placa ingresada.");
+
+            }
+
+        }
+
+    }
+}
