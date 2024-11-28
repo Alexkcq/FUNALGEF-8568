@@ -85,5 +85,20 @@ namespace AlquilerCarros
                 Console.WriteLine("Cliente no válido.");
                 return;
             }
+            Cliente clienteSeleccionado = clientes[clienteIndex];
+            Console.WriteLine($"Carros disponibles para el cliente {clienteSeleccionado.Nombre}:");
 
-            
+            foreach (var carro in carros)
+            {
+                if (carro.PrecioAlquiler <= clienteSeleccionado.PagoMaximo)
+                {
+                    Console.WriteLine(carro);
+                }
+            }
+
+        }
+
+    }
+}
+
+
