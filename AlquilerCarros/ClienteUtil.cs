@@ -65,6 +65,62 @@ namespace AlquilerCarros
                 return;
 
             }
+            Console.WriteLine("Listado de clientes:");
+
+            foreach (var cliente in Clientes)
+
+            {
+
+                Console.WriteLine(cliente);
+
+            }
+
         }
+
+        public static void Eliminar()
+
+        {
+
+            Console.Write("Ingrese el DNI del cliente a eliminar: ");
+
+            if (!int.TryParse(Console.ReadLine(), out int dni))
+
+            {
+
+                Console.WriteLine("DNI inválido. Intente nuevamente.");
+
+                return;
+
+            }
+
+
+
+            Cliente clienteAEliminar = Clientes.Find(c => c.Dni == dni);
+
+
+
+            if (clienteAEliminar != null)
+
+            {
+
+                Clientes.Remove(clienteAEliminar);
+
+                Console.WriteLine("¡Cliente eliminado exitosamente!");
+
+            }
+
+            else
+
+            {
+
+                Console.WriteLine("No se encontró un cliente con el DNI ingresado.");
+
+            }
+
+        }
+
     }
 }
+
+        
+
